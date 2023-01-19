@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>
+        Aditya Madan | Portfolio
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c416e79406.js" crossorigin="anonymous"></script>
+    <style>
+        @font-face {
+            font-family: 'Akira';
+            src: url('Akira-Expanded-Demo.ttf') format('truetype');
+        }
+
+
+        @font-face {
+            font-family: 'Coolvetica';
+            src: url('coolvetica-rg.ttf') format('truetype');
+        }
+
+
+        @font-face {
+            font-family: 'Louis';
+            src: url('Louis George Cafe.ttf') format('truetype');
+        }
+
+    </style>
+
+
+</head>
+
+<body class="bg-black overflow-hidden">
+    <nav class="text-white py-3 px-6">
+        <div class="container mx-auto flex items-center justify-between" style="font-family: 'Louis', sans-serif;">
+            <div class="flex items-center">
+                <a href="#" class="font-bold text-2xl tracking-tight" class="marquee">Aditya Madan</a>
+            </div>
+            <div class="flex items-center">
+                <button  id="menu-button"
+                    class="px-3 py-2 rounded-full text-lg font-medium leading-5 text-black bg-white "><i
+                        class="fa-solid fa-bars"></i></button>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Full screen menu -->
+    <div id="menu" id="menu" class="hidden backdrop-blur-xl">
+        
+        <!-- Menu content -->
+        <div class="flex flex-col justify-center h-screen backdrop-blur-xl" style="font-family: 'Akira', sans-serif;">
+            <div class="grid grid-rows-4 md:text-9xl sm:text-8xl text-white  gap-0.5 ">
+                <a href="index.html"><h1 class="text-white border-t-2 border-white ml-5 hover:bg-white p-2 hover:text-black">Home</h1></a>
+                <a href="about.html"> <h1 class="text-white border-t-2 border-white ml-5 hover:bg-white p-2 hover:text-black">About</h1></a>
+                <a href="https://github.com/Aditya10801"> <h1 class="text-white border-t-2 border-white ml-5 hover:bg-white p-2 hover:text-black">WORk</h1></a>
+               <a href="contact.html"> <h1 class="text-white border-t-2 border-b-2 border-white ml-5 hover:bg-white p-2 hover:text-black">
+                    Contact Me</h1></a>
+
+            </div>
+        </div>
+    </div>
+
+    
+      <h1 class="text-5xl text-white ml-10  mt-10 underline underline-offset-4 " style="font-family: 'Akira', sans-serif;">About Me</h1>  
+      <p class="text-xl text-white ml-10 mt-10 text-justify mr-10 " style="font-family: 'louis', sans-serif;">I am a highly skilled and motivated front-end web developer and designer with a passion for creating visually stunning and user-friendly websites. With experience in HTML, CSS, JavaScript, and various web development frameworks, I am able to create responsive and dynamic websites that not only look great, but also function seamlessly.
+
+        I have been interested in web development and design since high school, where I first began dabbling in HTML and CSS. As I delved deeper into the field, I became increasingly fascinated with the endless possibilities of the web and the impact it has on our daily lives. I began to experiment with different design techniques, as well as coding languages, and quickly realized that this was the field I wanted to pursue.
+        
+        Throughout my high school years, I have taken several classes related to web development and design, including computer science and graphic design. I have also participated in various coding competitions and hackathons, where I have honed my skills and gained valuable experience working in a team.
+        
+        In addition to my technical skills, I am also a creative and detail-oriented individual with a keen eye for design. I understand the importance of creating visually appealing websites that are easy to navigate, and I am always looking for new and innovative ways to improve the user experience.
+        
+        I am eager to continue learning and growing as a web developer and designer, and I am excited to apply my skills and knowledge to real-world projects. Whether it's working on a personal website or collaborating with a team on a larger project, I am committed to creating websites that are not only beautiful, but also functional and user-friendly.</p>
+
+     <div class="h-52 ml-5 mr-5 bg-white mt-5 rounded-xl flex flex-col justify-center items-center" style="font-family: 'Akira', sans-serif;">
+        <div class="flex flex-cols gap-5">
+        <h1 class="text-4xl text-black " >Wanna work with me ?</h1> <button class="h-10 w-72 rounded-xl bg-gray-400 text-2xl hover:bg-white hover:border-black hover:border-2"> Contact Me </button></div>
+     </div>
+        <script>
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                window.location.replace("notlaptop.html");
+            }
+
+        </script>
+
+        <script>
+            const menuButton = document.getElementById("menu-button");
+const menu = document.getElementById("menu");
+
+menuButton.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+});
+
+        </script>
+</body>
+
+</html>

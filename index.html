@@ -1,11 +1,148 @@
 <html>
+
 <head>
-  <title>Aditya Madan</title>
- <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <div class="flex flex-col justify-center items-center h-screen text-black font-bold text-6xl">
-      SITE IS UNDER MAINTAINANCE
+    <title>
+        Aditya Madan | Portfolio
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c416e79406.js" crossorigin="anonymous"></script>
+    <style>
+        @font-face {
+            font-family: 'Akira';
+            src: url('Akira-Expanded-Demo.ttf') format('truetype');
+        }
+
+
+        @font-face {
+            font-family: 'Coolvetica';
+            src: url('coolvetica-rg.ttf') format('truetype');
+        }
+
+
+        @font-face {
+            font-family: 'Louis';
+            src: url('Louis George Cafe.ttf') format('truetype');
+        }
+
+    </style>
+
+
+</head>
+
+<body class="bg-black overflow-hidden">
+    <nav class="text-white py-3 px-6">
+        <div class="container mx-auto flex items-center justify-between" style="font-family: 'Louis', sans-serif;">
+            <div class="flex items-center">
+                <a href="#" class="font-bold text-2xl tracking-tight" class="marquee">Aditya Madan</a>
+            </div>
+            <div class="flex items-center">
+                <button  id="menu-button"
+                    class="px-3 py-2 rounded-full text-lg font-medium leading-5 text-black bg-white "><i
+                        class="fa-solid fa-bars"></i></button>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Full screen menu -->
+    <div id="menu" id="menu" class="hidden backdrop-blur-xl">
+        
+        <!-- Menu content -->
+        <div class="flex flex-col justify-center h-screen backdrop-blur-xl" style="font-family: 'Akira', sans-serif;">
+            <div class="grid grid-rows-4 md:text-9xl sm:text-8xl text-white  gap-0.5 ">
+                <a href="index.html"><h1 class="text-white border-t-2 border-white ml-5 hover:bg-white p-2 hover:text-black">Home</h1></a>
+                <a href="about.html"> <h1 class="text-white border-t-2 border-white ml-5 hover:bg-white p-2 hover:text-black">About</h1></a>
+                <a href="https://github.com/Aditya10801"> <h1 class="text-white border-t-2 border-white ml-5 hover:bg-white p-2 hover:text-black">WORk</h1></a>
+               <a href="contact.html"> <h1 class="text-white border-t-2 border-b-2 border-white ml-5 hover:bg-white p-2 hover:text-black">
+                    Contact Me</h1></a>
+
+            </div>
+        </div>
     </div>
-  </body>
+
+    <div class=" h-32  mt-5 w-screen flex flex-col justify-center items-center z-0 "
+        style="font-family: 'Akira', sans-serif;">
+        <h1 class="text-white text-[8rem] " class="typewriter">Aditya Madan</h1>
+    </div>
+
+
+    <div class="flex flex-cols-2 gap-5 mt-20 z-0">
+        <div class="h-96 w-1/2 bg-white rounded-xl ml-5 relative z-0">
+            <h1 class="mt-5 ml-5 text-black text-4xl underline underline-offset-4 "
+                style="font-family: 'Akira', sans-serif;">About Me</h1>
+            <p style="font-family: 'louis', sans-serif;" class="text-xl text-black text-justify px-5 mt-2">I am a
+                talented front-end web developer, designer, and 11th grade student based in India. With a strong passion
+                for creating visually appealing and user-friendly websites, I am constantly honing my skills in HTML,
+                CSS, and JavaScript. I am also proficient in design tools such as Adobe Photoshop and Illustrator. As a
+                student, I am dedicated to staying current with the latest web development trends and technologies, and
+                I am eager to bring my skills and creativity to any project. Whether it's creating a website from
+                scratch or updating an existing one, I am committed to delivering high-quality work that exceeds
+                expectations.</p> <A href="about.html"><button
+                class="w-10 h-10 absolute bottom-2 right-2 rounded-full bg-black text-white flex flex-col border-2 border-white justify-center items-center text-xl hover:w-12 hover:h-12 hover:text-2xl transition ease-in-out">
+                ↖︎</button></A>
+
+        </div>
+        <div class="h-96 w-1/2 bg-white rounded-xl mr-5 relative" style="font-family: 'louis', sans-serif;">
+            <h1 class="mt-5 ml-5 text-black text-4xl underline underline-offset-4 "
+                style="font-family: 'Akira', sans-serif;">My Work</h1>
+            <p style="font-family: 'louis', sans-serif;" class="text-xl text-black text-justify px-5 mt-2">I have been
+                part of several projects which were developed for various hackathons and interschool events. Here are
+                some of the projects...</p>
+            <div class="mt-2.5 grid grid-rows-4 gap-2.5">
+               <a href="https://aditya10801.github.io/SIGF/"> <button
+                    class="h-12 w-[40rem] bg-black text-white flex flex-col justify-center items-center mx-5 rounded-full hover:border-2 hover:border-black hover:bg-white hover:text-black">Student Internet Governance Forum</button></a>
+                  <A href="https://aditya10801.github.io/nCreate-2022/">  <button
+                    class="h-12  w-[40rem] bg-black text-white flex flex-col justify-center items-center mx-5 rounded-full hover:border-2 hover:border-black hover:bg-white hover:text-black">Amex EVs</button></A>
+                   <a href="https://aditya10801.github.io/mixeo/"> <button
+                    class="h-12  w-[40rem] bg-black text-white flex flex-col justify-center items-center mx-5 rounded-full hover:border-2 hover:border-black hover:bg-white hover:text-black">MIXEO.ai</button></a>
+                  <A href="https://aditya10801.github.io/pursuit-int/">  <button
+                    class="h-12  w-[40rem] bg-black text-white flex flex-col justify-center items-center mx-5 rounded-full hover:border-2 hover:border-black hover:bg-white hover:text-black">Pursuit International School Landing Page</button></A>
+                
+            </div>
+            <button
+                class="w-10 h-10 absolute bottom-2 right-2 rounded-full bg-black text-white flex flex-col  border-2 border-white justify-center items-center text-xl hover:w-12 hover:h-12 hover:text-2xl transition ease-in-out">
+                ↖︎</button>
+
+        </div>
+        <script>
+
+            const scrollingText = document.getElementById("scrolling-text");
+            const text = scrollingText.firstElementChild;
+
+            function update() {
+                text.style.right = `${scrollingText.scrollLeft}px`;
+                requestAnimationFrame(update);
+            }
+
+            requestAnimationFrame(update);
+
+
+            // Function to open the menu
+            function openMenu() {
+                document.getElementById("menu").style.display = "block";
+            }
+
+            // Function to close the menu
+            function closeMenu() {
+                document.getElementById("menu").style.display = "none";
+            }
+        </script>
+
+        <script>
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                window.location.replace("notlaptop.html");
+            }
+
+        </script>
+
+        <script>
+            const menuButton = document.getElementById("menu-button");
+const menu = document.getElementById("menu");
+
+menuButton.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+});
+
+        </script>
+</body>
+
 </html>
