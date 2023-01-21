@@ -5,6 +5,12 @@
         Aditya Madan | Portfolio
     </title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            window.location.replace("notlaptop.html");
+        }
+
+    </script>
     <script src="https://kit.fontawesome.com/c416e79406.js" crossorigin="anonymous"></script>
     <style>
         @font-face {
