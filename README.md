@@ -1,16 +1,60 @@
-## Hi there 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Geist+Mono&size=15&duration=2400&pause=1000&color=FF5C1F&vCenter=true&width=560&height=28&lines=student+at+VIT+Vellore%2C+originally+from+Delhi;developer%2C+designer%2C+AvGeek;software%2C+design%2C+aircraft;an+unreasonable+number+of+open+tabs">
+  <img alt="student at VIT Vellore, originally from Delhi. developer, designer, AvGeek." src="https://readme-typing-svg.demolab.com?font=Geist+Mono&size=15&duration=2400&pause=1000&color=FF4F00&vCenter=true&width=560&height=28&lines=student+at+VIT+Vellore%2C+originally+from+Delhi;developer%2C+designer%2C+AvGeek;software%2C+design%2C+aircraft;an+unreasonable+number+of+open+tabs">
+</picture>
 
-<!--
-**Aditya10801/Aditya10801** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```text
+aditya@github:~ $ whoami
+aditya madan
 
-Here are some ideas to get you started:
+student at VIT Vellore, originally from Delhi.
+developer, designer, AvGeek.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+usually learning something, looking something up,
+or wondering why I haven't learned enough already.
+```
+
+Software, design, aircraft, and an unreasonable number of open tabs. My corner of the internet is **[adityamadan.cv](https://adityamadan.cv)**: a paper board you fly around, with a terminal for a nav.
+
+### things I've built
+
+| | | |
+|---|---|---|
+| **[Loom](https://loom.buildspace.cv)** | Your work lives in a dozen places. Loom brings GitHub, your résumé and LinkedIn together into one portfolio, with AI connecting the dots. | Next.js · PostgreSQL · Prisma · GenAI |
+| **[Flux](https://flux-space.vercel.app)** | A task manager built around one question: what actually needs your attention right now? Offline first. | React · Node · MongoDB · [code](https://github.com/Aditya10801/DoNext) |
+| **[Altos](https://altos-app.vercel.app)** | An aviation weather app. Designed in Figma, built front to back, deployed in about five hours. | [code](https://github.com/Aditya10801/Preflight) |
+| **[adityamadan.cv](https://adityamadan.cv)** | This corner of the internet. Scroll to fly, `cd` to navigate, hold the portrait. | React · Vite · [code](https://github.com/Aditya10801/aditya10801.github.io) |
+
+### toolkit
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go,ts,js,react,nextjs,nodejs,express,postgres,prisma,mongodb,tailwind,figma,git,vercel&theme=dark&perline=14">
+  <img alt="Go, TypeScript, JavaScript, React, Next.js, Node, Express, PostgreSQL, Prisma, MongoDB, Tailwind, Figma, Git, Vercel" src="https://skillicons.dev/icons?i=go,ts,js,react,nextjs,nodejs,express,postgres,prisma,mongodb,tailwind,figma,git,vercel&theme=light&perline=14">
+</picture>
+
+### flight log
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Aditya10801&show_icons=true&include_all_commits=true&hide_border=true&border_radius=6&bg_color=1a1a18&title_color=ff5c1f&text_color=ebe9e4&icon_color=ff5c1f&custom_title=flight%20log">
+  <img height="165" alt="GitHub stats for Aditya10801" src="https://github-readme-stats.vercel.app/api?username=Aditya10801&show_icons=true&include_all_commits=true&hide_border=true&border_radius=6&bg_color=fbfaf7&title_color=ff4f00&text_color=141312&icon_color=ff4f00&custom_title=flight%20log">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya10801&layout=compact&langs_count=8&hide_border=true&border_radius=6&bg_color=1a1a18&title_color=ff5c1f&text_color=ebe9e4&custom_title=languages">
+  <img height="165" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya10801&layout=compact&langs_count=8&hide_border=true&border_radius=6&bg_color=fbfaf7&title_color=ff4f00&text_color=141312&custom_title=languages">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Aditya10801&hide_border=true&border_radius=6&background=1A1A18&ring=FF5C1F&fire=FF5C1F&currStreakNum=EBE9E4&sideNums=EBE9E4&currStreakLabel=FF5C1F&sideLabels=8B877F&dates=8B877F&stroke=2A2A28">
+  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=Aditya10801&hide_border=true&border_radius=6&background=FBFAF7&ring=FF4F00&fire=FF4F00&currStreakNum=141312&sideNums=141312&currStreakLabel=FF4F00&sideLabels=6B675F&dates=6B675F&stroke=E6E3DC">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aditya10801/Aditya10801/output/snake-dark.svg">
+  <img alt="A snake eating the contribution graph" src="https://raw.githubusercontent.com/Aditya10801/Aditya10801/output/snake.svg">
+</picture>
+
+### elsewhere
+
+[adityamadan.cv](https://adityamadan.cv) · [LinkedIn](https://www.linkedin.com/in/aditya-madan-90b49526b) · [Instagram](https://www.instagram.com/your.avg.engineer/) · adityamadan01@gmail.com
+
+<sub>currently: figuring it out · operating status: mostly functional</sub>
